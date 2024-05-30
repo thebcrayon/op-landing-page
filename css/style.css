@@ -1,0 +1,220 @@
+/* Initial css resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero and navigation  */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body,
+button {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.container {
+    width: 55vw;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+section {
+    padding: 25px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.logo {
+    flex: 1 0 200px;
+    margin-right: auto;
+}
+
+.hero,
+footer {
+    background-color: #1f2937;
+}
+
+nav a,
+.l-content p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.l-content p {
+    margin-bottom: 10px;
+}
+
+.logo a {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.main-hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.main-hero-content p {
+    font-weight: 100;
+    line-height: 21px;
+}
+
+.l-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 2 1 300px;
+}
+
+.r-content {
+    flex: 1 1 400px;
+}
+
+.r-content img {
+    width: 100%;
+}
+
+.button {
+    background-color: #3882f6;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+/* Services + information  */
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 25px 0px;
+}
+
+.single-service {
+    flex-basis: 150px;
+    border-radius: 20px;
+}
+
+.single-service img {
+    margin-bottom: 10px;
+    border: 1px solid #3882f6;
+}
+
+.single-service p {
+    font-size: 14px;
+}
+
+/* Quote sections  */
+
+.pull-quote {
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote h2 {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+blockquote p {
+    margin-left: auto;
+    font-weight: bold;
+
+}
+
+/* Cta section */
+
+.centered {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 45px;
+    border-radius: 20px;
+    margin: 60px 10px;
+}
+
+.centered .left {
+    margin-right: auto;
+}
+
+.right a {
+    border: 1px solid white;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #e5e7eb;
+}

@@ -1,61 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>TOP: Landing Page Assignment</title>
 </head>
+
 <body>
     <!-- Hero section here -->
     <section class="hero">
-        <nav>
-            <ul>
-                <li><a href="#"></a>Header Logo</li>
-                <li><a href="#"></a>Page 1</li>
-                <li><a href="#"></a>Page 2</li>
-                <li><a href="#"></a>Page 3</li>
-            </ul>
-        </nav>
-        <div class="content">
-            <h1>This website is awesome</h1>
-            <p>Cupcake ipsum dolor sit amet gummi bears toffee. Apple pie caramels gummies chocolate cake sweet chocolate cake sugar plum jujubes bonbon.</p>
-            <button>Sign Up</button>
+        <div class="container">
+            <nav>
+                <ul class="navigation">
+                    <li class="logo"><a href="#"><img src="https://placehold.co/200x40/white/black?text=Brand+Logo"></a>
+                    </li>
+                    <div class="nav-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <div class="main-hero-content">
+                <div class="l-content">
+                    <h1>This website is awesome</h1>
+                    <p>Cupcake ipsum dolor sit amet gummi bears toffee. Apple pie caramels gummies chocolate cake sweet
+                        chocolate cake sugar plum jujubes bonbon.</p>
+                    <a class="button" href="#">Sign Up!</a>
+                </div>
+                <div class="r-content">
+                    <img src="https://placehold.co/600x400/white/black?text=Hero+Image&Font=Roboto">
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Random information section here  -->
     <section class="info">
-        <h2>Services</h2>
-        <ul class="services">
-            <li><img src="./img/someimage.jpg"><p>Cupcake ipsum dolor sit amet gummi bears toffee.</p></li>
-            <li><img src="./img/someimage.jpg"><p>Cupcake ipsum dolor sit amet gummi bears toffee.</p></li>
-            <li><img src="./img/someimage.jpg"><p>Cupcake ipsum dolor sit amet gummi bears toffee.</p></li>
-            <li><img src="./img/someimage.jpg"><p>Cupcake ipsum dolor sit amet gummi bears toffee.</p></li>
-        </ul>
+        <div class="container">
+            <h2>Some random information here.</h2>
+            <ul class="services">
+                <li class="single-service"><img src="https://placehold.co/150/white/black?text=Flex Basis: 150">
+                    <p>Cupcake ipsum dolor sit amet gummi bears toffee.</p>
+                </li>
+                <li class="single-service"><img src="https://placehold.co/150/white/black?text=Flex Basis: 150">
+                    <p>Cupcake ipsum dolor sit amet gummi bears toffee.</p>
+                </li>
+                <li class="single-service"><img src="https://placehold.co/150/white/black?text=Flex Basis: 150">
+                    <p>Cupcake ipsum dolor sit amet gummi bears toffee.</p>
+                </li>
+                <li class="single-service"><img src="https://placehold.co/150/white/black?text=Flex Basis: 150">
+                    <p>Cupcake ipsum dolor sit amet gummi bears toffee.</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Pull quote section here  -->
     <section class="pull-quote">
-        <blockquote>
-            <h2>Cupcake ipsum dolor sit amet gummi bears toffee. Apple pie caramels gummies chocolate cake sweet chocolate cake sugar plum jujubes bonbon.</h2>
-        </blockquote>
-        <p class="author">-Thor, God of Thunder</p>
+        <div class="container">
+            <blockquote>
+                <h2>Cupcake ipsum dolor sit amet gummi bears toffee. Apple pie caramels gummies chocolate cake sweet
+                    chocolate cake sugar plum jujubes bonbon.</h2>
+                <p class="author">-Thor, God of Thunder</p>
+            </blockquote>
+
+        </div>
     </section>
 
     <!-- Call to action section here  -->
     <section class="cta">
-        <div class="centered">
-            <div class="left">
-                <h2>Call to action! The time is now!</h2>
-                <p>Cupcake ipsum dolor sit amet gummi bears toffee.</p>
-            </div>
-            <div class="right">
-                <button>Sign Up!</button>
+        <div class="container">
+            <div class="centered">
+                <div class="left">
+                    <h2>Call to action! The time is now!</h2>
+                    <p>Cupcake ipsum dolor sit amet gummi bears toffee.</p>
+                </div>
+                <div class="right">
+                    <a class="button" href="#">Sign Up!</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer></footer>
+    <footer>© The Odin Project 2024</footer>
 </body>
+
 </html>
